@@ -1,0 +1,6 @@
+<html>
+<body style="background:#F5EEBC;">
+<h1>Hello world!</h1>
+<%= link_to "Job List", jobs_path %>
+</body>
+</html> 

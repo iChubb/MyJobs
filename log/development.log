@@ -1,0 +1,4075 @@
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at Sun Jun 03 09:36:42 +1200 2012
+Served asset /rails.png - 200 OK (9ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at Sun Jun 03 09:39:37 +1200 2012
+Served asset /rails.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at Sun Jun 03 09:39:43 +1200 2012
+Served asset /rails.png - 304 Not Modified (6ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jun 03 09:42:11 +1200 2012
+
+ActionController::RoutingError (No route matches [GET] "/"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /var/lib/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (4.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jun 03 09:44:42 +1200 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.5ms)
+Compiled home.css  (20ms)  (pid 11295)
+Compiled application.css  (54ms)  (pid 11295)
+Compiled jquery.js  (16ms)  (pid 11295)
+Compiled jquery_ujs.js  (1ms)  (pid 11295)
+Compiled home.js  (244ms)  (pid 11295)
+Compiled application.js  (436ms)  (pid 11295)
+Completed 200 OK in 576ms (Views: 574.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 09:44:42 +1200 2012
+Served asset /application.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 09:44:42 +1200 2012
+Served asset /home.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 09:44:42 +1200 2012
+Served asset /jquery.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 09:44:43 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 09:44:43 +1200 2012
+Served asset /home.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 09:44:43 +1200 2012
+Served asset /application.js - 304 Not Modified (26ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jun 03 09:45:30 +1200 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 21ms (Views: 20.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 09:45:30 +1200 2012
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 09:45:30 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 09:45:30 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 09:45:30 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 09:45:30 +1200 2012
+Served asset /home.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 09:45:30 +1200 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jun 03 09:48:08 +1200 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 27ms (Views: 26.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 09:48:08 +1200 2012
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 09:48:08 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 09:48:08 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 09:48:08 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 09:48:08 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 09:48:08 +1200 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jun 03 09:52:03 +1200 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.1ms)
+Compiled jobs.css  (7ms)  (pid 11420)
+Compiled scaffolds.css  (44ms)  (pid 11420)
+Compiled application.css  (82ms)  (pid 11420)
+Compiled jobs.js  (170ms)  (pid 11420)
+Compiled application.js  (196ms)  (pid 11420)
+Completed 200 OK in 426ms (Views: 425.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 09:52:04 +1200 2012
+Served asset /application.css - 304 Not Modified (51ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 09:52:04 +1200 2012
+Served asset /jobs.css - 200 OK (15ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 09:52:04 +1200 2012
+Served asset /home.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 09:52:04 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 09:52:04 +1200 2012
+Served asset /jquery.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 09:52:04 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 09:52:04 +1200 2012
+Served asset /home.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 09:52:04 +1200 2012
+Served asset /jobs.js - 200 OK (151ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 09:52:04 +1200 2012
+Served asset /application.js - 304 Not Modified (24ms)
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (153.1ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (155.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateJobs (20120602215121)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateJobs (20120602215856)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  CREATE TABLE "jobs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "Number" varchar(255), "Site" varchar(255), "Address" varchar(255), "Description" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20120602215856')[0m
+  [1m[35m (188.0ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.3ms)[0m  [1mPRAGMA index_list("jobs")[0m
+
+
+Started GET "/" for 127.0.0.1 at Sun Jun 03 09:59:39 +1200 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 64ms (Views: 63.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 09:59:39 +1200 2012
+Served asset /application.css - 304 Not Modified (41ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 09:59:39 +1200 2012
+Served asset /home.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 09:59:39 +1200 2012
+Served asset /jobs.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 09:59:39 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 09:59:39 +1200 2012
+Served asset /jquery.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 09:59:39 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 09:59:39 +1200 2012
+Served asset /home.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 09:59:39 +1200 2012
+Served asset /jobs.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 09:59:39 +1200 2012
+Served asset /application.js - 304 Not Modified (163ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jun 03 10:01:35 +1200 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (51.1ms)
+Completed 500 Internal Server Error in 55ms
+
+ActionView::Template::Error (undefined local variable or method `posts_path' for #<#<Class:0xb319cf7c>:0xb32a1440>):
+    1: <h1>My Jobs</h1>
+    2: <%= link_to "Job List", posts_path %>
+  app/views/home/index.html.erb:2:in `_app_views_home_index_html_erb___193509169__644546748'
+
+
+  Rendered /var/lib/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /var/lib/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /var/lib/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jun 03 10:02:25 +1200 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 31ms (Views: 30.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 10:02:25 +1200 2012
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 10:02:25 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 10:02:25 +1200 2012
+Served asset /jobs.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 10:02:25 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 10:02:25 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 10:02:25 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 10:02:25 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 10:02:25 +1200 2012
+Served asset /jobs.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 10:02:25 +1200 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/jobs" for 127.0.0.1 at Sun Jun 03 10:02:52 +1200 2012
+Processing by JobsController#index as HTML
+  [1m[36mJob Load (0.3ms)[0m  [1mSELECT "jobs".* FROM "jobs" [0m
+  Rendered jobs/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 90ms (Views: 19.7ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 10:02:52 +1200 2012
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 10:02:52 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 10:02:52 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 10:02:52 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 10:02:52 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 10:02:52 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 10:02:52 +1200 2012
+Served asset /jobs.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 10:02:52 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 10:02:52 +1200 2012
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/jobs/new" for 127.0.0.1 at Sun Jun 03 10:03:20 +1200 2012
+Processing by JobsController#new as HTML
+  Rendered jobs/_form.html.erb (163.3ms)
+  Rendered jobs/new.html.erb within layouts/application (183.0ms)
+Completed 200 OK in 229ms (Views: 204.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 10:03:20 +1200 2012
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 10:03:20 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 10:03:20 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 10:03:20 +1200 2012
+Served asset /jobs.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 10:03:20 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 10:03:20 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 10:03:20 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 10:03:20 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 10:03:20 +1200 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/jobs" for 127.0.0.1 at Sun Jun 03 10:03:40 +1200 2012
+Processing by JobsController#index as HTML
+  [1m[35mJob Load (0.3ms)[0m  SELECT "jobs".* FROM "jobs" 
+  Rendered jobs/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 31ms (Views: 19.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 10:03:40 +1200 2012
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 10:03:41 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 10:03:41 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 10:03:41 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 10:03:41 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 10:03:41 +1200 2012
+Served asset /jobs.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 10:03:41 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 10:03:41 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 10:03:41 +1200 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jun 03 10:11:27 +1200 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 31ms (Views: 30.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 10:11:27 +1200 2012
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 10:11:27 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 10:11:27 +1200 2012
+Served asset /jobs.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 10:11:27 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 10:11:27 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 10:11:27 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 10:11:27 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 10:11:27 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 10:11:27 +1200 2012
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jun 03 10:13:04 +1200 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 20ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 10:13:04 +1200 2012
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 10:13:04 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 10:13:04 +1200 2012
+Served asset /jobs.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 10:13:04 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 10:13:04 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 10:13:04 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 10:13:04 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 10:13:04 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 10:13:04 +1200 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jun 03 10:14:51 +1200 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 27ms (Views: 26.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 10:14:51 +1200 2012
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 10:14:51 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 10:14:51 +1200 2012
+Served asset /jobs.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 10:14:51 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 10:14:51 +1200 2012
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 10:14:51 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 10:14:51 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 10:14:51 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 10:14:51 +1200 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/jobs" for 127.0.0.1 at Sun Jun 03 10:15:00 +1200 2012
+Processing by JobsController#index as HTML
+  [1m[36mJob Load (0.3ms)[0m  [1mSELECT "jobs".* FROM "jobs" [0m
+  Rendered jobs/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 30ms (Views: 19.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 10:15:00 +1200 2012
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 10:15:00 +1200 2012
+Served asset /jobs.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 10:15:01 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 10:15:01 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 10:15:01 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 10:15:01 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 10:15:01 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 10:15:01 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 10:15:01 +1200 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/jobs" for 127.0.0.1 at Sun Jun 03 10:17:32 +1200 2012
+Processing by JobsController#index as HTML
+  [1m[35mJob Load (0.3ms)[0m  SELECT "jobs".* FROM "jobs" 
+  Rendered jobs/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 30ms (Views: 18.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 10:17:32 +1200 2012
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 10:17:32 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 10:17:32 +1200 2012
+Served asset /jobs.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 10:17:32 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 10:17:32 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 10:17:32 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 10:17:32 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 10:17:32 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 10:17:32 +1200 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/jobs/new" for 127.0.0.1 at Sun Jun 03 10:17:34 +1200 2012
+Processing by JobsController#new as HTML
+  Rendered jobs/_form.html.erb (18.5ms)
+  Rendered jobs/new.html.erb within layouts/application (20.7ms)
+Completed 200 OK in 33ms (Views: 30.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 10:17:34 +1200 2012
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 10:17:34 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 10:17:34 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 10:17:34 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 10:17:34 +1200 2012
+Served asset /jobs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 10:17:34 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 10:17:34 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 10:17:34 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 10:17:34 +1200 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/jobs" for 127.0.0.1 at Sun Jun 03 10:17:40 +1200 2012
+Processing by JobsController#index as HTML
+  [1m[36mJob Load (0.7ms)[0m  [1mSELECT "jobs".* FROM "jobs" [0m
+  Rendered jobs/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 33ms (Views: 23.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 10:17:40 +1200 2012
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 10:17:40 +1200 2012
+Served asset /jobs.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 10:17:40 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 10:17:40 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 10:17:40 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 10:17:40 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 10:17:40 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 10:17:40 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 10:17:40 +1200 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/jobs" for 127.0.0.1 at Sun Jun 03 10:18:56 +1200 2012
+Processing by JobsController#index as HTML
+  [1m[35mJob Load (0.3ms)[0m  SELECT "jobs".* FROM "jobs" 
+  Rendered jobs/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 198ms (Views: 187.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 10:18:56 +1200 2012
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 10:18:57 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 10:18:57 +1200 2012
+Served asset /jobs.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 10:18:57 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 10:18:57 +1200 2012
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 10:18:57 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 10:18:57 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 10:18:57 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 10:18:57 +1200 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/jobs" for 127.0.0.1 at Sun Jun 03 10:19:02 +1200 2012
+Processing by JobsController#index as HTML
+  [1m[36mJob Load (0.3ms)[0m  [1mSELECT "jobs".* FROM "jobs" [0m
+  Rendered jobs/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 36ms (Views: 33.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 10:19:02 +1200 2012
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 10:19:02 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 10:19:02 +1200 2012
+Served asset /jobs.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 10:19:02 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 10:19:02 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 10:19:02 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 10:19:02 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 10:19:02 +1200 2012
+Served asset /jobs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 10:19:02 +1200 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/jobs/new" for 127.0.0.1 at Sun Jun 03 10:19:05 +1200 2012
+Processing by JobsController#new as HTML
+  Rendered jobs/_form.html.erb (14.0ms)
+  Rendered jobs/new.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 33ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 10:19:06 +1200 2012
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 10:19:06 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 10:19:06 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 10:19:06 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 10:19:06 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 10:19:06 +1200 2012
+Served asset /jobs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 10:19:06 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 10:19:06 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 10:19:06 +1200 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/jobs" for 127.0.0.1 at Sun Jun 03 10:19:47 +1200 2012
+Processing by JobsController#index as HTML
+  [1m[35mJob Load (0.3ms)[0m  SELECT "jobs".* FROM "jobs" 
+  Rendered jobs/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 26ms (Views: 24.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 10:19:47 +1200 2012
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 10:19:47 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 10:19:47 +1200 2012
+Served asset /jobs.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 10:19:47 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 10:19:47 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 10:19:47 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 10:19:47 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 10:19:47 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 10:19:47 +1200 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jun 03 11:37:09 +1200 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 22ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 11:37:09 +1200 2012
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 11:37:09 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 11:37:09 +1200 2012
+Served asset /jobs.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 11:37:09 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 11:37:09 +1200 2012
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 11:37:09 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 11:37:10 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 11:37:10 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 11:37:10 +1200 2012
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/jobs" for 127.0.0.1 at Sun Jun 03 11:37:15 +1200 2012
+Processing by JobsController#index as HTML
+  [1m[36mJob Load (0.3ms)[0m  [1mSELECT "jobs".* FROM "jobs" [0m
+  Rendered jobs/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 40ms (Views: 29.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 11:37:15 +1200 2012
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 11:37:15 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 11:37:15 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 11:37:15 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 11:37:15 +1200 2012
+Served asset /jobs.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 11:37:15 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 11:37:16 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 11:37:16 +1200 2012
+Served asset /jobs.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 11:37:16 +1200 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/jobs" for 127.0.0.1 at Sun Jun 03 11:39:12 +1200 2012
+Processing by JobsController#index as HTML
+  [1m[35mJob Load (0.3ms)[0m  SELECT "jobs".* FROM "jobs" 
+  Rendered jobs/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 36ms (Views: 27.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 11:39:12 +1200 2012
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 11:39:12 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 11:39:12 +1200 2012
+Served asset /jobs.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 11:39:12 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 11:39:12 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 11:39:12 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 11:39:12 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 11:39:12 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 11:39:12 +1200 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jun 03 11:39:26 +1200 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 22ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 11:39:26 +1200 2012
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 11:39:26 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 11:39:26 +1200 2012
+Served asset /jobs.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 11:39:26 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 11:39:26 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 11:39:26 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 11:39:26 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 11:39:27 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 11:39:27 +1200 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/jobs" for 127.0.0.1 at Sun Jun 03 11:39:36 +1200 2012
+Processing by JobsController#index as HTML
+  [1m[36mJob Load (0.3ms)[0m  [1mSELECT "jobs".* FROM "jobs" [0m
+  Rendered jobs/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 35ms (Views: 20.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 11:39:36 +1200 2012
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 11:39:36 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 11:39:37 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 11:39:37 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 11:39:37 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 11:39:37 +1200 2012
+Served asset /jobs.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 11:39:37 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 11:39:37 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 11:39:37 +1200 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jun 03 11:41:14 +1200 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 28ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 11:41:14 +1200 2012
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 11:41:14 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 11:41:14 +1200 2012
+Served asset /jobs.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 11:41:14 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 11:41:14 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 11:41:14 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 11:41:14 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 11:41:14 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 11:41:14 +1200 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jun 03 12:08:46 +1200 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 60ms (Views: 59.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 12:08:47 +1200 2012
+Served asset /application.css - 304 Not Modified (46ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 12:08:47 +1200 2012
+Served asset /home.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 12:08:47 +1200 2012
+Served asset /jobs.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 12:08:47 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 12:08:47 +1200 2012
+Served asset /jquery.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 12:08:47 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 12:08:47 +1200 2012
+Served asset /home.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 12:08:47 +1200 2012
+Served asset /jobs.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 12:08:47 +1200 2012
+Served asset /application.js - 304 Not Modified (181ms)
+
+
+Started GET "/jobs" for 127.0.0.1 at Sun Jun 03 12:08:49 +1200 2012
+Processing by JobsController#index as HTML
+  [1m[36mJob Load (9.8ms)[0m  [1mSELECT "jobs".* FROM "jobs" [0m
+  Rendered jobs/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 98ms (Views: 23.3ms | ActiveRecord: 15.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 12:08:49 +1200 2012
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 12:08:49 +1200 2012
+Served asset /jobs.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 12:08:49 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 12:08:49 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 12:08:49 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 12:08:49 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 12:08:49 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 12:08:49 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 12:08:49 +1200 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/jobs/new" for 127.0.0.1 at Sun Jun 03 12:08:50 +1200 2012
+Processing by JobsController#new as HTML
+  Rendered jobs/_form.html.erb (32.9ms)
+  Rendered jobs/new.html.erb within layouts/application (39.8ms)
+Completed 200 OK in 83ms (Views: 62.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 12:08:51 +1200 2012
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 12:08:51 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 12:08:51 +1200 2012
+Served asset /jobs.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 12:08:51 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 12:08:51 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 12:08:51 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 12:08:51 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 12:08:51 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 12:08:51 +1200 2012
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started POST "/jobs" for 127.0.0.1 at Sun Jun 03 12:09:16 +1200 2012
+Processing by JobsController#create as HTML
+  Parameters: {"commit"=>"Create Job", "authenticity_token"=>"xsiIXpXVWYAROYNp95H3b0QTHwbe2ZVKny76OQyW+iA=", "job"=>{"Description"=>"remove mcp", "Number"=>"123456", "Site"=>"cdhb", "Address"=>"22 st asaph st"}, "utf8"=>"✓"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (25.8ms)[0m  [1mINSERT INTO "jobs" ("Address", "Description", "Number", "Site", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["Address", "22 st asaph st"], ["Description", "remove mcp"], ["Number", "123456"], ["Site", "cdhb"], ["created_at", Sun, 03 Jun 2012 00:09:16 UTC +00:00], ["updated_at", Sun, 03 Jun 2012 00:09:16 UTC +00:00]]
+  [1m[35m (166.2ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/jobs/1
+Completed 302 Found in 200ms (ActiveRecord: 192.0ms)
+
+
+Started GET "/jobs/1" for 127.0.0.1 at Sun Jun 03 12:09:16 +1200 2012
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mJob Load (0.4ms)[0m  [1mSELECT "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered jobs/show.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 55ms (Views: 41.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 12:09:16 +1200 2012
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 12:09:16 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 12:09:16 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 12:09:16 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 12:09:16 +1200 2012
+Served asset /jobs.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 12:09:16 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 12:09:16 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 12:09:16 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 12:09:16 +1200 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/jobs" for 127.0.0.1 at Sun Jun 03 12:09:23 +1200 2012
+Processing by JobsController#index as HTML
+  [1m[35mJob Load (0.3ms)[0m  SELECT "jobs".* FROM "jobs" 
+  Rendered jobs/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 32ms (Views: 29.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 12:09:23 +1200 2012
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 12:09:23 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 12:09:23 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 12:09:23 +1200 2012
+Served asset /jobs.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 12:09:23 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 12:09:23 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 12:09:23 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 12:09:23 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 12:09:23 +1200 2012
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/jobs/new" for 127.0.0.1 at Sun Jun 03 12:09:25 +1200 2012
+Processing by JobsController#new as HTML
+  Rendered jobs/_form.html.erb (13.6ms)
+  Rendered jobs/new.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 42ms (Views: 40.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 12:09:25 +1200 2012
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 12:09:25 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 12:09:25 +1200 2012
+Served asset /jobs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 12:09:25 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 12:09:25 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 12:09:25 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 12:09:25 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 12:09:25 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 12:09:25 +1200 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/jobs" for 127.0.0.1 at Sun Jun 03 12:09:52 +1200 2012
+Processing by JobsController#create as HTML
+  Parameters: {"commit"=>"Create Job", "authenticity_token"=>"xsiIXpXVWYAROYNp95H3b0QTHwbe2ZVKny76OQyW+iA=", "job"=>{"Description"=>"nothing special", "Number"=>"567890", "Site"=>"mama mare", "Address"=>"romania"}, "utf8"=>"✓"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (5.6ms)[0m  INSERT INTO "jobs" ("Address", "Description", "Number", "Site", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["Address", "romania"], ["Description", "nothing special"], ["Number", "567890"], ["Site", "mama mare"], ["created_at", Sun, 03 Jun 2012 00:09:52 UTC +00:00], ["updated_at", Sun, 03 Jun 2012 00:09:52 UTC +00:00]]
+  [1m[36m (175.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://0.0.0.0:3000/jobs/2
+Completed 302 Found in 186ms (ActiveRecord: 180.9ms)
+
+
+Started GET "/jobs/2" for 127.0.0.1 at Sun Jun 03 12:09:53 +1200 2012
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mJob Load (0.2ms)[0m  SELECT "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered jobs/show.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 43ms (Views: 28.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 12:09:53 +1200 2012
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 12:09:53 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 12:09:53 +1200 2012
+Served asset /jobs.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 12:09:53 +1200 2012
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 12:09:53 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 12:09:53 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 12:09:53 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 12:09:53 +1200 2012
+Served asset /jobs.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 12:09:53 +1200 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/jobs" for 127.0.0.1 at Sun Jun 03 12:09:56 +1200 2012
+Processing by JobsController#index as HTML
+  [1m[36mJob Load (0.3ms)[0m  [1mSELECT "jobs".* FROM "jobs" [0m
+  Rendered jobs/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 30ms (Views: 27.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 12:09:56 +1200 2012
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 12:09:56 +1200 2012
+Served asset /jobs.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 12:09:56 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 12:09:56 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 12:09:56 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 12:09:56 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 12:09:56 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 12:09:56 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 12:09:56 +1200 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/jobs/1" for 127.0.0.1 at Sun Jun 03 12:10:17 +1200 2012
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mJob Load (0.2ms)[0m  SELECT "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered jobs/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 150ms (Views: 147.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 12:10:17 +1200 2012
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 12:10:17 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 12:10:17 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 12:10:17 +1200 2012
+Served asset /jobs.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 12:10:17 +1200 2012
+Served asset /home.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 12:10:17 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 12:10:17 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 12:10:17 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 12:10:17 +1200 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/jobs" for 127.0.0.1 at Sun Jun 03 12:10:21 +1200 2012
+Processing by JobsController#index as HTML
+  [1m[36mJob Load (0.3ms)[0m  [1mSELECT "jobs".* FROM "jobs" [0m
+  Rendered jobs/index.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 40ms (Views: 37.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 12:10:21 +1200 2012
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 12:10:21 +1200 2012
+Served asset /jobs.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 12:10:21 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 12:10:21 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 12:10:21 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 12:10:21 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 12:10:21 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 12:10:21 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 12:10:21 +1200 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/jobs/2" for 127.0.0.1 at Sun Jun 03 12:10:26 +1200 2012
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mJob Load (0.2ms)[0m  SELECT "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered jobs/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 37ms (Views: 26.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 12:10:26 +1200 2012
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 12:10:26 +1200 2012
+Served asset /jobs.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 12:10:26 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 12:10:26 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 12:10:26 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 12:10:26 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 12:10:26 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 12:10:26 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 12:10:26 +1200 2012
+Served asset /application.js - 304 Not Modified (9ms)
+
+
+Started GET "/jobs/2" for 127.0.0.1 at Sun Jun 03 12:10:30 +1200 2012
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mJob Load (0.2ms)[0m  [1mSELECT "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered jobs/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 33ms (Views: 30.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 12:10:30 +1200 2012
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 12:10:30 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 12:10:30 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 12:10:30 +1200 2012
+Served asset /jobs.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 12:10:30 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 12:10:30 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 12:10:30 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 12:10:30 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 12:10:30 +1200 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/jobs/2/edit" for 127.0.0.1 at Sun Jun 03 12:10:32 +1200 2012
+Processing by JobsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mJob Load (0.2ms)[0m  SELECT "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered jobs/_form.html.erb (16.6ms)
+  Rendered jobs/edit.html.erb within layouts/application (19.5ms)
+Completed 200 OK in 50ms (Views: 43.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 12:10:32 +1200 2012
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 12:10:32 +1200 2012
+Served asset /jobs.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 12:10:32 +1200 2012
+Served asset /home.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 12:10:32 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 12:10:32 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 12:10:32 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 12:10:32 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 12:10:32 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 12:10:32 +1200 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/jobs/1/edit" for 127.0.0.1 at Sun Jun 03 12:10:36 +1200 2012
+Processing by JobsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mJob Load (0.2ms)[0m  [1mSELECT "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered jobs/_form.html.erb (6.4ms)
+  Rendered jobs/edit.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 35ms (Views: 32.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 12:10:36 +1200 2012
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 12:10:36 +1200 2012
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 12:10:36 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 12:10:36 +1200 2012
+Served asset /jobs.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 12:10:36 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 12:10:36 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 12:10:36 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 12:10:36 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 12:10:36 +1200 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started PUT "/jobs/1" for 127.0.0.1 at Sun Jun 03 12:10:47 +1200 2012
+Processing by JobsController#update as HTML
+  Parameters: {"id"=>"1", "commit"=>"Update Job", "authenticity_token"=>"xsiIXpXVWYAROYNp95H3b0QTHwbe2ZVKny76OQyW+iA=", "job"=>{"Description"=>"remove mcp and sounder", "Number"=>"123456", "Site"=>"cdhb", "Address"=>"22 st asaph st"}, "utf8"=>"✓"}
+  [1m[35mJob Load (0.2ms)[0m  SELECT "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  UPDATE "jobs" SET "updated_at" = '2012-06-03 00:10:47.394611', "Description" = 'remove mcp and sounder' WHERE "jobs"."id" = 1
+  [1m[36m (176.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://0.0.0.0:3000/jobs/1
+Completed 302 Found in 193ms (ActiveRecord: 177.3ms)
+
+
+Started GET "/jobs/1" for 127.0.0.1 at Sun Jun 03 12:10:47 +1200 2012
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mJob Load (0.2ms)[0m  SELECT "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered jobs/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 29ms (Views: 21.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 12:10:47 +1200 2012
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 12:10:47 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 12:10:47 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 12:10:47 +1200 2012
+Served asset /jobs.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 12:10:47 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 12:10:47 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 12:10:47 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 12:10:47 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 12:10:47 +1200 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/jobs" for 127.0.0.1 at Sun Jun 03 12:10:55 +1200 2012
+Processing by JobsController#index as HTML
+  [1m[36mJob Load (0.3ms)[0m  [1mSELECT "jobs".* FROM "jobs" [0m
+  Rendered jobs/index.html.erb within layouts/application (18.2ms)
+Completed 200 OK in 51ms (Views: 42.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 12:10:55 +1200 2012
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 12:10:55 +1200 2012
+Served asset /jobs.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 12:10:55 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 12:10:55 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 12:10:55 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 12:10:55 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 12:10:55 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 12:10:55 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 12:10:55 +1200 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started DELETE "/jobs/2" for 127.0.0.1 at Sun Jun 03 12:11:03 +1200 2012
+Processing by JobsController#destroy as HTML
+  Parameters: {"id"=>"2", "authenticity_token"=>"xsiIXpXVWYAROYNp95H3b0QTHwbe2ZVKny76OQyW+iA="}
+  [1m[35mJob Load (0.2ms)[0m  SELECT "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  DELETE FROM "jobs" WHERE "jobs"."id" = ?  [["id", 2]]
+  [1m[36m (177.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://0.0.0.0:3000/jobs
+Completed 302 Found in 193ms (ActiveRecord: 178.2ms)
+
+
+Started GET "/jobs" for 127.0.0.1 at Sun Jun 03 12:11:03 +1200 2012
+Processing by JobsController#index as HTML
+  [1m[35mJob Load (0.3ms)[0m  SELECT "jobs".* FROM "jobs" 
+  Rendered jobs/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 26ms (Views: 19.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 12:11:03 +1200 2012
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 12:11:03 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 12:11:03 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 12:11:03 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 12:11:03 +1200 2012
+Served asset /jobs.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 12:11:03 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 12:11:03 +1200 2012
+Served asset /home.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 12:11:03 +1200 2012
+Served asset /jobs.js - 304 Not Modified (170ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 12:11:03 +1200 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started DELETE "/jobs/1" for 127.0.0.1 at Sun Jun 03 12:11:05 +1200 2012
+Processing by JobsController#destroy as HTML
+  Parameters: {"id"=>"1", "authenticity_token"=>"xsiIXpXVWYAROYNp95H3b0QTHwbe2ZVKny76OQyW+iA="}
+  [1m[36mJob Load (0.2ms)[0m  [1mSELECT "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "jobs" WHERE "jobs"."id" = ?[0m  [["id", 1]]
+  [1m[35m (180.0ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/jobs
+Completed 302 Found in 191ms (ActiveRecord: 180.6ms)
+
+
+Started GET "/jobs" for 127.0.0.1 at Sun Jun 03 12:11:05 +1200 2012
+Processing by JobsController#index as HTML
+  [1m[36mJob Load (0.3ms)[0m  [1mSELECT "jobs".* FROM "jobs" [0m
+  Rendered jobs/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 35ms (Views: 29.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 12:11:05 +1200 2012
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 12:11:05 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 12:11:05 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 12:11:05 +1200 2012
+Served asset /jobs.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 12:11:05 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 12:11:06 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 12:11:06 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 12:11:06 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 12:11:06 +1200 2012
+Served asset /application.js - 304 Not Modified (3ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateJobs (20120602215856)
+Migrating to CreateUsers (20120603031132)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "password_hash" varchar(255), "password_salt" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20120603031132')[0m
+  [1m[35m (177.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("jobs")[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("users")
+
+
+Started GET "/" for 127.0.0.1 at Sun Jun 03 15:34:27 +1200 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.0ms)
+Compiled sessions.css  (5ms)  (pid 17750)
+Compiled users.css  (2ms)  (pid 17750)
+Compiled application.css  (44ms)  (pid 17750)
+Compiled sessions.js  (184ms)  (pid 17750)
+Compiled users.js  (2ms)  (pid 17750)
+Compiled application.js  (219ms)  (pid 17750)
+Completed 200 OK in 493ms (Views: 492.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 15:34:27 +1200 2012
+Served asset /application.css - 304 Not Modified (51ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 15:34:28 +1200 2012
+Served asset /home.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 15:34:28 +1200 2012
+Served asset /jobs.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at Sun Jun 03 15:34:28 +1200 2012
+Served asset /sessions.css - 200 OK (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 15:34:28 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at Sun Jun 03 15:34:28 +1200 2012
+Served asset /users.css - 200 OK (12ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 15:34:28 +1200 2012
+Served asset /jquery.js - 304 Not Modified (22ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 15:34:28 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 15:34:28 +1200 2012
+Served asset /home.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 15:34:28 +1200 2012
+Served asset /jobs.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at Sun Jun 03 15:34:28 +1200 2012
+Served asset /sessions.js - 200 OK (3ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jun 03 15:34:28 +1200 2012
+Served asset /users.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 15:34:28 +1200 2012
+Served asset /application.js - 304 Not Modified (46ms)
+
+
+Started GET "/jobs" for 127.0.0.1 at Sun Jun 03 15:34:33 +1200 2012
+Processing by JobsController#index as HTML
+  [1m[36mJob Load (0.3ms)[0m  [1mSELECT "jobs".* FROM "jobs" [0m
+  Rendered jobs/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 75ms (Views: 23.3ms | ActiveRecord: 5.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 15:34:33 +1200 2012
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 15:34:33 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 15:34:33 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 15:34:33 +1200 2012
+Served asset /jobs.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at Sun Jun 03 15:34:33 +1200 2012
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 15:34:33 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at Sun Jun 03 15:34:33 +1200 2012
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 15:34:33 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 15:34:33 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 15:34:33 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at Sun Jun 03 15:34:33 +1200 2012
+Served asset /sessions.js - 304 Not Modified (153ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jun 03 15:34:33 +1200 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 15:34:33 +1200 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jun 03 15:34:43 +1200 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 29ms (Views: 28.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 15:34:43 +1200 2012
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 15:34:43 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at Sun Jun 03 15:34:43 +1200 2012
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 15:34:43 +1200 2012
+Served asset /jobs.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at Sun Jun 03 15:34:43 +1200 2012
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 15:34:43 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 15:34:43 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 15:34:43 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 15:34:43 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 15:34:43 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at Sun Jun 03 15:34:43 +1200 2012
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jun 03 15:34:43 +1200 2012
+Served asset /users.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 15:34:43 +1200 2012
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/sign_up" for 127.0.0.1 at Sun Jun 03 15:34:46 +1200 2012
+
+LoadError (Expected /home/chris/Desktop/My_Jobs/Chubb/app/controllers/users_controller.rb to define UsersController):
+  activesupport (3.2.3) lib/active_support/dependencies.rb:503:in `load_missing_constant'
+  activesupport (3.2.3) lib/active_support/dependencies.rb:192:in `const_missing'
+  activesupport (3.2.3) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.3) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.3) lib/active_support/inflector/methods.rb:218:in `constantize'
+  activesupport (3.2.3) lib/active_support/inflector/methods.rb:217:in `each'
+  activesupport (3.2.3) lib/active_support/inflector/methods.rb:217:in `constantize'
+  activesupport (3.2.3) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.3) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:467:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `_run__498256505__call__4__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /var/lib/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /var/lib/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /var/lib/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.4ms)
+
+
+Started GET "/sign_up" for 127.0.0.1 at Sun Jun 03 15:36:54 +1200 2012
+
+SyntaxError (/home/chris/Desktop/My_Jobs/Chubb/app/controllers/users_controller.rb:15: syntax error, unexpected $end, expecting kEND):
+  activesupport (3.2.3) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.3) lib/active_support/dependencies.rb:469:in `load_file'
+  activesupport (3.2.3) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.3) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.3) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.3) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.3) lib/active_support/dependencies.rb:192:in `const_missing'
+  activesupport (3.2.3) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.3) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.3) lib/active_support/inflector/methods.rb:218:in `constantize'
+  activesupport (3.2.3) lib/active_support/inflector/methods.rb:217:in `each'
+  activesupport (3.2.3) lib/active_support/inflector/methods.rb:217:in `constantize'
+  activesupport (3.2.3) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.3) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:467:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `_run__498256505__call__4__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /var/lib/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.1ms)
+  Rendered /var/lib/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /var/lib/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.6ms)
+
+
+Started GET "/sign_up" for 127.0.0.1 at Sun Jun 03 15:37:13 +1200 2012
+Processing by UsersController#new as HTML
+Completed 500 Internal Server Error in 37ms
+
+ActionView::MissingTemplate (Missing template users/new, application/new with {:handlers=>[:builder, :coffee, :erb], :locale=>[:en], :formats=>[:html]}. Searched in:
+  * "/home/chris/Desktop/My_Jobs/Chubb/app/views"
+):
+  actionpack (3.2.3) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.3) lib/action_view/lookup_context.rb:109:in `find_template'
+  actionpack (3.2.3) lib/action_view/renderer/abstract_renderer.rb:3:in `__send__'
+  actionpack (3.2.3) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:34:in `determine_template'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:10:in `render'
+  actionpack (3.2.3) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.3) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.3) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.3) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.3) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  activesupport (3.2.3) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  /usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+  activesupport (3.2.3) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.3) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.3) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.3) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.3) lib/abstract_controller/callbacks.rb:18:in `process_action'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:414:in `_run__85785635__process_action__394774066__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `instrument'
+  activesupport (3.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/params_wrapper.rb:205:in `process_action'
+  activerecord (3.2.3) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.3) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.3) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal.rb:246:in `action'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.3) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:467:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `_run__498256505__call__4__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /var/lib/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.5ms)
+
+
+Started GET "/log_in" for 127.0.0.1 at Sun Jun 03 15:39:14 +1200 2012
+
+LoadError (Expected /home/chris/Desktop/My_Jobs/Chubb/app/controllers/sessions_controller.rb to define SessionsController):
+  activesupport (3.2.3) lib/active_support/dependencies.rb:503:in `load_missing_constant'
+  activesupport (3.2.3) lib/active_support/dependencies.rb:192:in `const_missing'
+  activesupport (3.2.3) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.3) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.3) lib/active_support/inflector/methods.rb:218:in `constantize'
+  activesupport (3.2.3) lib/active_support/inflector/methods.rb:217:in `each'
+  activesupport (3.2.3) lib/active_support/inflector/methods.rb:217:in `constantize'
+  activesupport (3.2.3) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.3) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:467:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `_run__498256505__call__4__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /var/lib/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /var/lib/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /var/lib/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.4ms)
+
+
+Started GET "/log_in" for 127.0.0.1 at Sun Jun 03 15:40:25 +1200 2012
+Processing by SessionsController#new as HTML
+Completed 500 Internal Server Error in 6ms
+
+ActionView::MissingTemplate (Missing template sessions/new, application/new with {:handlers=>[:builder, :coffee, :erb], :locale=>[:en], :formats=>[:html]}. Searched in:
+  * "/home/chris/Desktop/My_Jobs/Chubb/app/views"
+):
+  actionpack (3.2.3) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.3) lib/action_view/lookup_context.rb:109:in `find_template'
+  actionpack (3.2.3) lib/action_view/renderer/abstract_renderer.rb:3:in `__send__'
+  actionpack (3.2.3) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:34:in `determine_template'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:10:in `render'
+  actionpack (3.2.3) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.3) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.3) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.3) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.3) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  activesupport (3.2.3) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  /usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+  activesupport (3.2.3) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.3) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.3) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.3) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.3) lib/abstract_controller/callbacks.rb:18:in `process_action'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:414:in `_run__845619825__process_action__394774066__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `instrument'
+  activesupport (3.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/params_wrapper.rb:205:in `process_action'
+  activerecord (3.2.3) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.3) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.3) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal.rb:246:in `action'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.3) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:467:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `_run__498256505__call__4__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /var/lib/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.5ms)
+
+
+Started GET "/sign_up" for 127.0.0.1 at Sun Jun 03 15:44:19 +1200 2012
+Processing by UsersController#new as HTML
+Completed 500 Internal Server Error in 36ms
+
+ActionView::MissingTemplate (Missing template users/new, application/new with {:handlers=>[:builder, :coffee, :erb], :locale=>[:en], :formats=>[:html]}. Searched in:
+  * "/home/chris/Desktop/My_Jobs/Chubb/app/views"
+):
+  actionpack (3.2.3) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.3) lib/action_view/lookup_context.rb:109:in `find_template'
+  actionpack (3.2.3) lib/action_view/renderer/abstract_renderer.rb:3:in `__send__'
+  actionpack (3.2.3) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:34:in `determine_template'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:10:in `render'
+  actionpack (3.2.3) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.3) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.3) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.3) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.3) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  activesupport (3.2.3) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  /usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+  activesupport (3.2.3) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.3) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.3) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.3) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.3) lib/abstract_controller/callbacks.rb:18:in `process_action'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:414:in `_run__85785635__process_action__394774066__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `instrument'
+  activesupport (3.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/params_wrapper.rb:205:in `process_action'
+  activerecord (3.2.3) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.3) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.3) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal.rb:246:in `action'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.3) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:467:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `_run__498256505__call__4__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /var/lib/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jun 03 15:45:41 +1200 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 31ms (Views: 30.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 15:45:41 +1200 2012
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 15:45:41 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 15:45:41 +1200 2012
+Served asset /jobs.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 15:45:41 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at Sun Jun 03 15:45:41 +1200 2012
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 15:45:41 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at Sun Jun 03 15:45:41 +1200 2012
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 15:45:41 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 15:45:41 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 15:45:41 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at Sun Jun 03 15:45:41 +1200 2012
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jun 03 15:45:41 +1200 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 15:45:41 +1200 2012
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/sign_up" for 127.0.0.1 at Sun Jun 03 15:45:43 +1200 2012
+Processing by UsersController#new as HTML
+Completed 500 Internal Server Error in 2ms
+
+ActionView::MissingTemplate (Missing template users/new, application/new with {:handlers=>[:builder, :coffee, :erb], :locale=>[:en], :formats=>[:html]}. Searched in:
+  * "/home/chris/Desktop/My_Jobs/Chubb/app/views"
+):
+  actionpack (3.2.3) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.3) lib/action_view/lookup_context.rb:109:in `find_template'
+  actionpack (3.2.3) lib/action_view/renderer/abstract_renderer.rb:3:in `__send__'
+  actionpack (3.2.3) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:34:in `determine_template'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:10:in `render'
+  actionpack (3.2.3) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.3) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.3) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.3) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.3) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  activesupport (3.2.3) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  /usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+  activesupport (3.2.3) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.3) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.3) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.3) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.3) lib/abstract_controller/callbacks.rb:18:in `process_action'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:414:in `_run__85785635__process_action__394774066__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `instrument'
+  activesupport (3.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/params_wrapper.rb:205:in `process_action'
+  activerecord (3.2.3) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.3) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.3) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal.rb:246:in `action'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.3) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:467:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `_run__498256505__call__4__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /var/lib/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.5ms)
+
+
+Started GET "/jobs" for 127.0.0.1 at Sun Jun 03 15:48:27 +1200 2012
+Processing by JobsController#index as HTML
+  [1m[35mJob Load (0.2ms)[0m  SELECT "jobs".* FROM "jobs" 
+  Rendered jobs/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 25ms (Views: 16.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 15:48:27 +1200 2012
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 15:48:27 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 15:48:27 +1200 2012
+Served asset /jobs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 15:48:27 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at Sun Jun 03 15:48:27 +1200 2012
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at Sun Jun 03 15:48:27 +1200 2012
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 15:48:27 +1200 2012
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 15:48:27 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 15:48:27 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 15:48:27 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at Sun Jun 03 15:48:27 +1200 2012
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jun 03 15:48:27 +1200 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 15:48:27 +1200 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/jobs/new" for 127.0.0.1 at Sun Jun 03 15:48:29 +1200 2012
+Processing by JobsController#new as HTML
+  Rendered jobs/_form.html.erb (14.1ms)
+  Rendered jobs/new.html.erb within layouts/application (25.3ms)
+Completed 200 OK in 66ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 15:48:29 +1200 2012
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at Sun Jun 03 15:48:30 +1200 2012
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at Sun Jun 03 15:48:30 +1200 2012
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 15:48:30 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 15:48:30 +1200 2012
+Served asset /jobs.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 15:48:30 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 15:48:30 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 15:48:30 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 15:48:30 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 15:48:30 +1200 2012
+Served asset /jobs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at Sun Jun 03 15:48:30 +1200 2012
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jun 03 15:48:30 +1200 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 15:48:30 +1200 2012
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jun 03 16:15:56 +1200 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 169ms (Views: 168.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 16:15:57 +1200 2012
+Served asset /application.css - 304 Not Modified (50ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 16:15:57 +1200 2012
+Served asset /home.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 16:15:57 +1200 2012
+Served asset /jobs.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 16:15:57 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (24ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at Sun Jun 03 16:15:57 +1200 2012
+Served asset /sessions.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at Sun Jun 03 16:15:57 +1200 2012
+Served asset /users.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 16:15:57 +1200 2012
+Served asset /jquery.js - 304 Not Modified (24ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 16:15:57 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 16:15:57 +1200 2012
+Served asset /home.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 16:15:57 +1200 2012
+Served asset /jobs.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at Sun Jun 03 16:15:57 +1200 2012
+Served asset /sessions.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jun 03 16:15:57 +1200 2012
+Served asset /users.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 16:15:57 +1200 2012
+Served asset /application.js - 304 Not Modified (47ms)
+
+
+Started GET "/jobs" for 127.0.0.1 at Sun Jun 03 16:15:59 +1200 2012
+Processing by JobsController#index as HTML
+  [1m[36mJob Load (0.2ms)[0m  [1mSELECT "jobs".* FROM "jobs" [0m
+  Rendered jobs/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 213ms (Views: 175.1ms | ActiveRecord: 5.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 16:16:00 +1200 2012
+Served asset /application.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at Sun Jun 03 16:16:00 +1200 2012
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at Sun Jun 03 16:16:00 +1200 2012
+Served asset /sessions.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 16:16:00 +1200 2012
+Served asset /jobs.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 16:16:00 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 16:16:00 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:00 +1200 2012
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:00 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:00 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:00 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:00 +1200 2012
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:00 +1200 2012
+Served asset /users.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:00 +1200 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/jobs/new" for 127.0.0.1 at Sun Jun 03 16:16:01 +1200 2012
+Processing by JobsController#new as HTML
+  Rendered jobs/_form.html.erb (14.9ms)
+  Rendered jobs/new.html.erb within layouts/application (20.6ms)
+Completed 200 OK in 67ms (Views: 40.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 16:16:01 +1200 2012
+Served asset /application.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 16:16:02 +1200 2012
+Served asset /home.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 16:16:02 +1200 2012
+Served asset /jobs.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at Sun Jun 03 16:16:02 +1200 2012
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at Sun Jun 03 16:16:02 +1200 2012
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 16:16:02 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:02 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:02 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:02 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:02 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:02 +1200 2012
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:02 +1200 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:02 +1200 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/jobs" for 127.0.0.1 at Sun Jun 03 16:16:11 +1200 2012
+Processing by JobsController#create as HTML
+  Parameters: {"authenticity_token"=>"xsiIXpXVWYAROYNp95H3b0QTHwbe2ZVKny76OQyW+iA=", "job"=>{"Description"=>"23456ytujiklik;.,nmhe356", "Number"=>"123456", "Site"=>"34567", "Address"=>"23456789"}, "utf8"=>"✓", "commit"=>"Create Job"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (26.7ms)[0m  [1mINSERT INTO "jobs" ("Address", "Description", "Number", "Site", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["Address", "23456789"], ["Description", "23456ytujiklik;.,nmhe356"], ["Number", "123456"], ["Site", "34567"], ["created_at", Sun, 03 Jun 2012 04:16:11 UTC +00:00], ["updated_at", Sun, 03 Jun 2012 04:16:11 UTC +00:00]]
+  [1m[35m (166.7ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/jobs/3
+Completed 302 Found in 206ms (ActiveRecord: 193.5ms)
+
+
+Started GET "/jobs/3" for 127.0.0.1 at Sun Jun 03 16:16:12 +1200 2012
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mJob Load (0.4ms)[0m  [1mSELECT "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  Rendered jobs/show.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 46ms (Views: 32.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 16:16:12 +1200 2012
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 16:16:12 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at Sun Jun 03 16:16:12 +1200 2012
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at Sun Jun 03 16:16:12 +1200 2012
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 16:16:12 +1200 2012
+Served asset /jobs.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 16:16:12 +1200 2012
+Served asset /home.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:12 +1200 2012
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:12 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:12 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:12 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:12 +1200 2012
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:12 +1200 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:12 +1200 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/jobs" for 127.0.0.1 at Sun Jun 03 16:16:21 +1200 2012
+Processing by JobsController#index as HTML
+  [1m[35mJob Load (0.3ms)[0m  SELECT "jobs".* FROM "jobs" 
+  Rendered jobs/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 157ms (Views: 25.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 16:16:21 +1200 2012
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at Sun Jun 03 16:16:21 +1200 2012
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 16:16:21 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at Sun Jun 03 16:16:21 +1200 2012
+Served asset /sessions.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 16:16:21 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 16:16:21 +1200 2012
+Served asset /jobs.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:21 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:21 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:21 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:21 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:21 +1200 2012
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:21 +1200 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:21 +1200 2012
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/jobs/3/edit" for 127.0.0.1 at Sun Jun 03 16:16:24 +1200 2012
+Processing by JobsController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mJob Load (0.2ms)[0m  [1mSELECT "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  Rendered jobs/_form.html.erb (13.0ms)
+  Rendered jobs/edit.html.erb within layouts/application (23.8ms)
+Completed 200 OK in 41ms (Views: 38.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 16:16:24 +1200 2012
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 16:16:24 +1200 2012
+Served asset /jobs.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 16:16:24 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at Sun Jun 03 16:16:24 +1200 2012
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 16:16:24 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at Sun Jun 03 16:16:24 +1200 2012
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:24 +1200 2012
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:24 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:24 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:25 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:25 +1200 2012
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:25 +1200 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:25 +1200 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started PUT "/jobs/3" for 127.0.0.1 at Sun Jun 03 16:16:30 +1200 2012
+Processing by JobsController#update as HTML
+  Parameters: {"authenticity_token"=>"xsiIXpXVWYAROYNp95H3b0QTHwbe2ZVKny76OQyW+iA=", "job"=>{"Description"=>"23456ytujiklik;.,nmhe356 vbj", "Number"=>"123456", "Site"=>"34567", "Address"=>"23456789"}, "utf8"=>"✓", "id"=>"3", "commit"=>"Update Job"}
+  [1m[35mJob Load (0.2ms)[0m  SELECT "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT 1  [["id", "3"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  UPDATE "jobs" SET "updated_at" = '2012-06-03 04:16:30.216445', "Description" = '23456ytujiklik;.,nmhe356 vbj' WHERE "jobs"."id" = 3
+  [1m[36m (180.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://0.0.0.0:3000/jobs/3
+Completed 302 Found in 198ms (ActiveRecord: 181.2ms)
+
+
+Started GET "/jobs/3" for 127.0.0.1 at Sun Jun 03 16:16:30 +1200 2012
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mJob Load (0.2ms)[0m  SELECT "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT 1  [["id", "3"]]
+  Rendered jobs/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 38ms (Views: 35.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 16:16:30 +1200 2012
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at Sun Jun 03 16:16:30 +1200 2012
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 16:16:30 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 16:16:30 +1200 2012
+Served asset /jobs.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 16:16:30 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at Sun Jun 03 16:16:30 +1200 2012
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:30 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:30 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:30 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:30 +1200 2012
+Served asset /jobs.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:30 +1200 2012
+Served asset /sessions.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:30 +1200 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:30 +1200 2012
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/jobs" for 127.0.0.1 at Sun Jun 03 16:16:49 +1200 2012
+Processing by JobsController#index as HTML
+  [1m[36mJob Load (0.3ms)[0m  [1mSELECT "jobs".* FROM "jobs" [0m
+  Rendered jobs/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 33ms (Views: 31.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 03 16:16:49 +1200 2012
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 03 16:16:49 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 03 16:16:50 +1200 2012
+Served asset /jobs.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 03 16:16:50 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at Sun Jun 03 16:16:50 +1200 2012
+Served asset /sessions.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:50 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:50 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at Sun Jun 03 16:16:50 +1200 2012
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:50 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:50 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:50 +1200 2012
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:50 +1200 2012
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 03 16:16:50 +1200 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/log_in" for 127.0.0.1 at Sun Jun 03 16:16:51 +1200 2012
+Processing by SessionsController#new as HTML
+Completed 500 Internal Server Error in 13ms
+
+ActionView::MissingTemplate (Missing template sessions/new, application/new with {:handlers=>[:builder, :coffee, :erb], :locale=>[:en], :formats=>[:html]}. Searched in:
+  * "/home/chris/Desktop/My_Jobs/Chubb/app/views"
+):
+  actionpack (3.2.3) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.3) lib/action_view/lookup_context.rb:109:in `find_template'
+  actionpack (3.2.3) lib/action_view/renderer/abstract_renderer.rb:3:in `__send__'
+  actionpack (3.2.3) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:34:in `determine_template'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:10:in `render'
+  actionpack (3.2.3) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.3) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.3) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.3) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.3) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  activesupport (3.2.3) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  /usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+  activesupport (3.2.3) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.3) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.3) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.3) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.3) lib/abstract_controller/callbacks.rb:18:in `process_action'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:414:in `_run__568148776__process_action__186242120__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `instrument'
+  activesupport (3.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/params_wrapper.rb:205:in `process_action'
+  activerecord (3.2.3) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.3) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.3) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal.rb:246:in `action'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.3) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:467:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `_run__768085048__call__4__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /var/lib/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.6ms)
+
+
+Started GET "/sign_up" for 127.0.0.1 at Sun Jun 03 16:16:54 +1200 2012
+Processing by UsersController#new as HTML
+Completed 500 Internal Server Error in 33ms
+
+ActionView::MissingTemplate (Missing template users/new, application/new with {:handlers=>[:builder, :coffee, :erb], :locale=>[:en], :formats=>[:html]}. Searched in:
+  * "/home/chris/Desktop/My_Jobs/Chubb/app/views"
+):
+  actionpack (3.2.3) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.3) lib/action_view/lookup_context.rb:109:in `find_template'
+  actionpack (3.2.3) lib/action_view/renderer/abstract_renderer.rb:3:in `__send__'
+  actionpack (3.2.3) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:34:in `determine_template'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:10:in `render'
+  actionpack (3.2.3) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.3) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.3) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.3) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.3) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  activesupport (3.2.3) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  /usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+  activesupport (3.2.3) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.3) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.3) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.3) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.3) lib/abstract_controller/callbacks.rb:18:in `process_action'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:414:in `_run__362552087__process_action__186242120__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `instrument'
+  activesupport (3.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/params_wrapper.rb:205:in `process_action'
+  activerecord (3.2.3) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.3) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.3) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal.rb:246:in `action'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.3) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:467:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `_run__768085048__call__4__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /var/lib/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jun 10 12:45:26 +1200 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 296ms (Views: 295.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 10 12:45:27 +1200 2012
+Served asset /application.css - 304 Not Modified (58ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 10 12:45:27 +1200 2012
+Served asset /home.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 10 12:45:27 +1200 2012
+Served asset /jobs.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 10 12:45:27 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at Sun Jun 10 12:45:27 +1200 2012
+Served asset /sessions.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at Sun Jun 10 12:45:27 +1200 2012
+Served asset /users.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 10 12:45:27 +1200 2012
+Served asset /jquery.js - 304 Not Modified (35ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 10 12:45:27 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 10 12:45:27 +1200 2012
+Served asset /home.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 10 12:45:27 +1200 2012
+Served asset /jobs.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at Sun Jun 10 12:45:27 +1200 2012
+Served asset /sessions.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jun 10 12:45:27 +1200 2012
+Served asset /users.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 10 12:45:27 +1200 2012
+Served asset /application.js - 304 Not Modified (41ms)
+
+
+Started GET "/jobs" for 127.0.0.1 at Sun Jun 10 12:45:36 +1200 2012
+Processing by JobsController#index as HTML
+  [1m[36mJob Load (0.2ms)[0m  [1mSELECT "jobs".* FROM "jobs" [0m
+  Rendered jobs/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 177ms (Views: 28.7ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 10 12:45:36 +1200 2012
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 10 12:45:36 +1200 2012
+Served asset /jobs.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 10 12:45:36 +1200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at Sun Jun 10 12:45:36 +1200 2012
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at Sun Jun 10 12:45:36 +1200 2012
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 10 12:45:36 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 10 12:45:36 +1200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 10 12:45:36 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 10 12:45:36 +1200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 10 12:45:36 +1200 2012
+Served asset /jobs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at Sun Jun 10 12:45:36 +1200 2012
+Served asset /sessions.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jun 10 12:45:36 +1200 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 10 12:45:36 +1200 2012
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jun 10 12:51:50 +1200 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 76ms (Views: 75.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 10 12:51:50 +1200 2012
+Served asset /application.css - 304 Not Modified (37ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Jun 10 12:51:50 +1200 2012
+Served asset /home.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Sun Jun 10 12:51:50 +1200 2012
+Served asset /jobs.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Sun Jun 10 12:51:50 +1200 2012
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at Sun Jun 10 12:51:50 +1200 2012
+Served asset /sessions.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at Sun Jun 10 12:51:50 +1200 2012
+Served asset /users.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 10 12:51:50 +1200 2012
+Served asset /jquery.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 10 12:51:50 +1200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Jun 10 12:51:50 +1200 2012
+Served asset /home.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Sun Jun 10 12:51:50 +1200 2012
+Served asset /jobs.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at Sun Jun 10 12:51:50 +1200 2012
+Served asset /sessions.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jun 10 12:51:50 +1200 2012
+Served asset /users.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 10 12:51:51 +1200 2012
+Served asset /application.js - 304 Not Modified (45ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jun 13 22:55:36 +1200 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (16.0ms)
+Compiled home.css  (12ms)  (pid 25493)
+Compiled jobs.css  (2ms)  (pid 25493)
+Compiled scaffolds.css  (17ms)  (pid 25493)
+Compiled sessions.css  (2ms)  (pid 25493)
+Compiled users.css  (3ms)  (pid 25493)
+Compiled application.css  (76ms)  (pid 25493)
+Compiled jquery.js  (10ms)  (pid 25493)
+Compiled jquery_ujs.js  (1ms)  (pid 25493)
+Compiled home.js  (194ms)  (pid 25493)
+Compiled jobs.js  (1ms)  (pid 25493)
+Compiled sessions.js  (1ms)  (pid 25493)
+Compiled users.js  (1ms)  (pid 25493)
+Compiled application.js  (454ms)  (pid 25493)
+Completed 200 OK in 681ms (Views: 680.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Wed Jun 13 22:55:37 +1200 2012
+Served asset /home.css - 200 OK (11ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at Wed Jun 13 22:55:37 +1200 2012
+Served asset /jobs.css - 200 OK (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Wed Jun 13 22:55:37 +1200 2012
+Served asset /scaffolds.css - 200 OK (5ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at Wed Jun 13 22:55:37 +1200 2012
+Served asset /sessions.css - 200 OK (8ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at Wed Jun 13 22:55:37 +1200 2012
+Served asset /users.css - 200 OK (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Jun 13 22:55:37 +1200 2012
+Served asset /jquery.js - 200 OK (11ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Wed Jun 13 22:55:37 +1200 2012
+Served asset /jquery_ujs.js - 200 OK (12ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Wed Jun 13 22:55:37 +1200 2012
+Served asset /home.js - 200 OK (9ms)
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at Wed Jun 13 22:55:37 +1200 2012
+Served asset /jobs.js - 200 OK (7ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at Wed Jun 13 22:55:37 +1200 2012
+Served asset /sessions.js - 200 OK (7ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Wed Jun 13 22:55:37 +1200 2012
+Served asset /users.js - 200 OK (3ms)
