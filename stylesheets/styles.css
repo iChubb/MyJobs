@@ -90,9 +90,8 @@ audio:not([controls]) {
 }
 
 sup {
-        font-size: 0.83em;
-        vertical-align: super;
-        line-height: 0;
+        font-size: 1em;
+        
     }
 
 
